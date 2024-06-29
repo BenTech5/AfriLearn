@@ -14,10 +14,11 @@
     font-size: 20px;
 }
 
-.logo img{
+.logo{
     width: 80px;
     height: 10vh;
     margin-left: 5rem;
+    margin-top: 30px;
 }
 .nav-bar ul{
     display: flex;
@@ -32,7 +33,7 @@
 
 .popular-programs div{
     height: 200px;
-    background: rgba(104, 125, 153, 1);
+    background: #0AFCED;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,28 +57,28 @@
     height: 253px;
     border-radius: 50px;
     font-size: 30px;
-    background-color: #687D99;
+    background-color: #0afcec44;
     text-align: center;
 }
 
 .item1 div{
     width: 164px;
     border-radius: 100px;
-    background-color: #D9D9D9;
+    background-color: #0afced;
     margin: 40px auto;
 }
 
 .item2 div{
     width: 164px;
     border-radius: 100px;
-    background-color: #D9D9D9;
+    background-color: #0afced;
     margin: 40px auto;
 }
 
 .item3 div{
     width: 164px;
     border-radius: 100px;
-    background-color: #D9D9D9;
+    background-color: #0afced;
     margin: 40px auto;
 }
 
@@ -86,7 +87,7 @@
     width: 840px;
     height: 60px;
     border-radius: 50px;
-    background-color: #D9D9D9;
+    background-color: #0afcec44;
     font-size: 20px;
     color: #555454;
     border: none;
@@ -99,8 +100,14 @@
 .blog{
     height: 85vh;
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     margin-top: 40px;
+}
+
+.post{
+    background-color: #0AFCED;
+    height: 113px;
+    padding-top: 30px;
 }
 
 .blog-container{
@@ -124,9 +131,9 @@
 }
 
 .last-section{
-    height: 448px;
+    height: 400px;
     font-size: 40px;
-    background-color: #7087AA;
+    background-color: #0afceca1;
     padding: 30px;
 }
 
