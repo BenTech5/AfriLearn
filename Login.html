@@ -3,10 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login system</title>
+    <title>AfriLearn - Login</title>
     <link rel="stylesheet" href="Login.css">
+    <script defer src="Login.js"></script>
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <div class="logo">AfriLearn</div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Programmes</a></li>
+                <li><a href="#">Tutors</a></li>
+                <li><a href="#">Register with AfriLearn</a></li>
+                <li><a href="#">Log In</a></li>
+                <li><a href="#">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="buttons">
+            <button id="homeButton">Back to home</button>
+            <button id="registerButton">Register</button>
+        </div>
+        <section class="login-section">
+            <h1>Login</h1>
+            <p>sign in to your account</p>
+            <div class="toggle-buttons">
+                <button id="studentsButton" class="active">Students</button>
+                <button id="tutorsButton">Tutors</button>
+            </div>
+            <div id="studentsForm" class="login-form active">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <button>Login</button>
+                <p>Forgot password, click <a href="#">here</a> to reset</p>
+            </div>
+            <div id="tutorsForm" class="login-form">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <input type="text" placeholder="Tutor ID">
+                <button>Login</button>
+                <p>Forgot password, click <a href="#">here</a> to reset</p>
+            </div>
+        </section>
+        <button id="registerWithAfriLearn">Register with AfriLearn</button>
+    </main>
 </body>
 </html>

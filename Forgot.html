@@ -3,10 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Forgotten Password</title>
+    <title>Forgot Password - AfriLearn</title>
     <link rel="stylesheet" href="Forgot.css">
 </head>
 <body>
-    
+    <header>
+        <div class="container">
+            <div class="logo">AfriLearn</div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Programmes</a></li>
+                    <li><a href="#">Tutors</a></li>
+                    <li><a href="#">Register with AfriLearn</a></li>
+                    <li><a href="#">Log In</a></li>
+                    <li><a href="#">Sign Up</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="form-container">
+            <div class="button-group">
+                <button class="btn back-home">Back to home</button>
+                <button class="btn register">Register</button>
+            </div>
+            <h1>Forgot password?</h1>
+            <p>Don't worry about your account</p>
+
+            <input type="email" placeholder="Enter your email" class="input-field">
+            <div class="button-group">
+                <button class="btn send-code">Send verification code</button>
+                <button class="btn resend-code">Resend code</button>
+            </div>
+
+            <p>Enter verification code</p>
+            <div class="verification-code">
+                <input type="text" maxlength="1">
+                <input type="text" maxlength="1">
+                <input type="text" maxlength="1">
+                <input type="text" maxlength="1">
+                <input type="text" maxlength="1">
+                <input type="text" maxlength="1">
+            </div>
+            <p class="code-expiry">code expires in 10 minutes</p>
+
+            <input type="password" placeholder="Enter your new password" class="input-field">
+            <input type="password" placeholder="Confirm password" class="input-field">
+            
+            <button class="btn login">Login</button>
+        </div>
+    </main>
 </body>
 </html>
