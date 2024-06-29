@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet Our Tutors</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        /* Tutors Section */
+        .tutors {
+            padding: 20px;
+            background: #fff;
+            margin-top: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .tutors h2 {
+            margin-bottom: 20px;
+        }
+
+        .tutors-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .tutor {
+            background: #f4f4f4;
+            margin: 10px;
+            padding: 20px;
+            width: 300px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .tutor:hover {
+            transform: scale(1.05);
+        }
+
+        .tutor img {
+            width: 100%;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        .tutor h3 {
+            margin: 10px 0;
+        }
+
+        .tutor p {
+            margin: 10px 0;
+        }
+
+        .btn {
+            background: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .btn:hover {
+            background: #555;
+        }
+
+        .bio {
+            display: none;
+            margin-top: 10px;
+        }
+
+        .bio p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <section class="tutors">
+        <h2>Meet Our Tutors</h2>
+        <div class="tutors-container">
+            <!-- Tutor 1 -->
+            <div class="tutor">
+                <img src="https://i.postimg.cc/pXxfWPY5/IMG-20240627-110322.jpg" alt="Tutor 1">
+                <h3>Jackson Mwuendo</h3>
+                <p>Expert in Web Development</p>
+                <button class="btn" onclick="showBio(1)">Read More</button>
+                <div class="bio" id="bio-1">
+                    <p>C.E.E<br>
+                    University of Eldoret<br>
+                    alx_africa<br>
+                    Eldoret, Uasin Gishu County, Kenya</p>
+                </div>
+            </div>
+            <!-- Tutor 2 -->
+            <div class="tutor">
+                <img src="https://i.postimg.cc/L5gbm2zb/IMG-20240627-112707.jpg" alt="Tutor 2">
+                <h3>Priscah Adhiambo</h3>
+                <p>Expert in Data Science</p>
+                <button class="btn" onclick="showBio(2)">Read More</button>
+                <div class="bio" id="bio-2">
+                    <p>Urban and Regional Planner | Software Engineer | UX/UI Designer: Creating human-centered tech solutions for Startups, Agencies, and Organizations.<br>
+                    The Technical University of Kenya<br>
+                    Smart Brains Kenya<br>
+                    Nairobi County, Kenya</p>
+                </div>
+            </div>
+            <!-- Add more tutors here -->
+        </div>
+    </section>
+
+    <script>
+        function showBio(id) {
+            var bio = document.getElementById('bio-' + id);
+            if (bio.style.display === 'block') {
+                bio.style.display = 'none';
+            } else {
+                bio.style.display = 'block';
+            }
+        }
+    </script>
+</body>
+</html>
