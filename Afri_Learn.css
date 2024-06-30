@@ -74,7 +74,7 @@ section h2 {
     flex-grow: 0%;
     justify-content: space-between;
     align-items: right;
-    background-color: #0AFCED;
+    background-color: rgb(103,203,231);
     gap: 100px;
 }
 
@@ -107,7 +107,7 @@ section h2 {
 .why-us {
     text-align: center;
     padding: 5px 20px;
-    background-color: #0AFCED;
+    background-color: rgb(103,203,231);
     color: #ffffff;
 }
 
@@ -143,7 +143,7 @@ section h2 {
 
 .popular-courses h2 {
     margin-bottom: 40px;
-    background-color: #0AFCED;
+    background-color: rgb(103,203,231);
     
 }
 
@@ -174,7 +174,7 @@ section h2 {
 }
 
 .become-tutor h2 {
-    background-color: #0AFCED;
+    background-color: rgb(103,203,231);
 }
 
 .tutor-content {
@@ -197,7 +197,7 @@ section h2 {
 }
 
 footer {
-    background-color: #6cece3;
+    background-color: rgb(103,203,231);
     padding: 20px 0;
     text-align: center;
 }

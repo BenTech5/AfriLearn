@@ -33,7 +33,7 @@
 
 .popular-programs div{
     height: 200px;
-    background: #0AFCED;
+    background: rgb(103,203,231);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,21 +64,21 @@
 .item1 div{
     width: 164px;
     border-radius: 100px;
-    background-color: #0afced;
+    background-color:rgb(103,203,231);
     margin: 40px auto;
 }
 
 .item2 div{
     width: 164px;
     border-radius: 100px;
-    background-color: #0afced;
+    background-color:rgb(103,203,231);
     margin: 40px auto;
 }
 
 .item3 div{
     width: 164px;
     border-radius: 100px;
-    background-color: #0afced;
+    background-color: rgb(103,203,231);
     margin: 40px auto;
 }
 
@@ -105,7 +105,7 @@
 }
 
 .post{
-    background-color: #0AFCED;
+    background-color:rgb(103,203,231);
     height: 113px;
     padding-top: 30px;
 }
@@ -133,7 +133,7 @@
 .last-section{
     height: 400px;
     font-size: 40px;
-    background-color: #0afceca1;
+    background-color: rgb(103,203,231);
     padding: 30px;
 }
 
