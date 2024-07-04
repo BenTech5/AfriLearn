@@ -2,15 +2,18 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     scroll-behavior: smooth;
     text-decoration: none;
 }
 
-html{
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+
+body{
     background-image: url(/AfriLearn/images/programs\ bk\ img.png);
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Nunito', sans-serif;
 }
 
 .header{
@@ -37,23 +40,22 @@ html{
     color: #000000;
 }
 
-.nav-bar ul a:hover{
+/* .nav-bar ul a:hover{
     background-color: #007bffa5;
     padding: 5px 10px;
     border-radius: 5px;
-}
+} */
 
 .sub-nav{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 100px;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .sub-nav1, .sub-nav2{
     background-color: #1f51d17c;
-    /* background-color: #1F51D1; */
     padding: 7px 30px;
     color: #D9D9D9;
     border-radius: 25px;
@@ -67,11 +69,11 @@ html{
 .search-bar{
     background-color: #1f51d1;
     width: 45%;
-    margin-top: 40px;
+    margin-top: 35px;
     border-radius: 25px;
     display: flex;
     padding: 7px 15px;
-    margin-left: -90px;
+    margin-left: -100px;
 }
 
 .search-bar input{
@@ -118,7 +120,6 @@ html{
 
 .show-more{
     background-color: #7F98D6;
-    opacity: 86%;
     display: flex;
     align-items: center;
     justify-content: center;
