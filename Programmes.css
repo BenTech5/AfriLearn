@@ -10,9 +10,9 @@
 
 
 body{
-    background-image: url(/AfriLearn/images/programs\ bk\ img.png);
+    /* background-image: url(/AfriLearn/images/programs\ bk\ img.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
     font-family: 'Nunito', sans-serif;
 }
 
@@ -97,7 +97,7 @@ body{
 }
 
 .popular-programs-inner{
-    color: #D9D9D9;
+    color: aliceblue;
     display: flex;
     padding: 20px 40px;
     gap: 40px;
@@ -110,7 +110,7 @@ body{
 }
 
 .popular-programs a{
-    color: #D9D9D9;
+    color: aliceblue;
     line-height: 30px;
 }
 
