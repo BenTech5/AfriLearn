@@ -393,16 +393,22 @@ footer {
     
     .blog-container{
         margin-top: 70px;
+        margin-right: 100px;
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 40px;
         font-size: 30px;
+        /* overflow: hidden; */
     }
     
-    .blog-item1 img, .blog-item2 img, .blog-item img{
-        width: 350px;
+    .blog-item1 iframe, .blog-item2 iframe, .blog-item iframe{
+        width: 150px;
         height: auto;
+    }
+
+    iframe{
+        width: 50px;
     }
     
     .blog-container figcaption{
@@ -435,7 +441,7 @@ footer {
     
     footer {
         background-color:#1f51d182 ;
-        margin-top: 30px;
+        /* margin-top: 30px; */
     }
     
     .footer-content {

@@ -268,8 +268,7 @@ footer {
 }
 
 .footer-content a:hover{
-    background-color: #1f51d1;
-    color: white;
+    color: gray;
 }
 
 .footer-center{
@@ -285,7 +284,6 @@ footer {
 
 .fa-square-facebook{
     font-size: 30px;
-    color: rgb(57, 57, 178);
 }
 .fa-x-twitter{
     font-size: 30px;
