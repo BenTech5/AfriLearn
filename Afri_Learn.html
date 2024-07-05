@@ -5,35 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AfriLearn</title>
     <link rel="stylesheet" href="Afri_Learn.css">
-</head>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
 <body>
     <header>
         <div class="logo">
-            <img src="logo.png" alt="AfriLearn Logo">
-            <h1>AfriLearn</h1>
+            <img src="images/Logo.jpg" alt="AfriLearn Logo">
+            
         </div>
         <nav>
             <ul id="nav-links">
                 <li><a href="#" class="nav-link">Home</a></li>
-                <li><a href="#" class="nav-link">Programmes</a></li>
-                <li><a href="#" class="nav-link">Tutors</a></li>
-                <li><a href="#" class="nav-link">Log In</a></li>
-                <li><a href="#" class="nav-link">Register with AfriLearn</a></li>
+                <li><a href="Programmes.html" class="nav-link">Programmes</a></li>
+                <li><a href="Tutorspage.html" class="nav-link">Tutors</a></li>
+                <li><a href="Login.html" class="nav-link">Log In</a></li>
+                <li><a href="Register.html" class="nav-link">Register with AfriLearn</a></li>
             </ul>
             <div class="menu-icon" id="menu-icon">
                 <span></span>
                 <span></span>
                 <span></span>
             </div>
+
+            <div class="hero-content">
+                <h2>Empowering Africa through Technology and Education</h2>
+            </div>
+
+            <div class="search-bar">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg>
+                <input type="text" placeholder="search for a program">
+            </div>
         </nav>
+        
     </header>
 
-    <section class="hero">
-        <div class="hero-content">
-            <h2>Empowering Africa through Technology and Education</h2>
-            <input type="text" placeholder="search for a programme">
-        </div>
-    </section>
+    
 
     <section class="about">
         <h2>Why You Should learn from Us</h2>
@@ -43,16 +49,16 @@
     <section class="courses">
         <h2>Our Most Popular Courses</h2>
         <div class="course">
-            <img src="data_analysis.jpg" alt="Data Analysis">
-            <p>Data Analysis</p>
+            <img src="images/Rectangle 26.jpg" alt="Data Analysis">
+            <strong><p>Data Analysis</p></strong>
         </div>
         <div class="course">
-            <img src="iot.jpg" alt="Internet of Things">
-            <p>Internet of Things</p>
+            <img src="images/unsplash_yFbyvpEGHFQ.jpg" alt="Internet of Things">
+            <strong><p>Internet of Things</p></strong>
         </div>
         <div class="course">
-            <img src="cyber_security.jpg" alt="Cyber Security">
-            <p>Cyber Security</p>
+            <img src="images/unsplash_ah-HeguOe9k.jpg" alt="Cyber Security">
+            <strong><p>Cyber Security</p></strong>
         </div>
     </section>
 
@@ -61,7 +67,11 @@
             <div class="tutor-text">
                 <h2>Join our vibrant community and be a part of something truly special in Africa!</h2>
                 <p>Connect with like-minded individuals, share your passions, teach your passions, and make lasting friendships with our students. Together, we can create a positive and supportive environment where everyone feels welcome and valued. Join us today and let’s make a difference together!</p>
-                <a href="#">Click to Register</a>
+               <br>
+                <div class="tutor-link">
+                    <a href="Register.html"><strong>Click to Register!!!</strong></a>
+
+                </div>
             </div>
             <div class="tutor-image">
                 <img src="images/Tutor img.jpg" alt="Tutor">
@@ -74,28 +84,33 @@
             <div class="footer-left">
                 <h3>AfriLearn</h3>
                 <ul>
-                    <li>About us</li>
-                    <li>What we offer</li>
-                    <li>Teach on AfriLearn</li>
-                    <li>Help and Support</li>
-                    <li>Contact Us</li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">What we offer</a></li>
+                    <li><a href="#">Teach on AfriLearn</a></li>
+                    <li><a href="#">Help and Support</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-center">
+                <h3>Connect with Us</h3>
+                <ul>
+                    <a href="#" target="_blank"><i class="fa-brands fa-square-facebook"> </i></a>
+                    <a href="#" ><i class="fa-brands fa-x-twitter"> </i></a>
+                    <a href="#"><i class="fa-brands fa-square-instagram"> </i></a>
+                    <a href="#"><i class="fa-sharp fa-regular fa-envelope"> </i></a>
                 </ul>
             </div>
             <div class="footer-right">
-                <h3>Connect with Us</h3>
-                <div class="social-media">
-                    <a href="#"><img src="facebook.png" alt="Facebook"></a>
-                    <a href="#"><img src="twitter.png" alt="Twitter"></a>
-                    <a href="#"><img src="instagram.png" alt="Instagram"></a>
-                    <a href="#"><img src="mail.png" alt="Mail"></a>
-                </div>
-                <form>
+                <h3>Subscribe to get updates</h3>
+                <form action="">
                     <input type="email" placeholder="Enter your email">
                     <button type="submit">Subscribe</button>
                 </form>
             </div>
         </div>
-        <p>&copy; AfriLearn 2024</p>
+        <div class="copyright">
+            <p>© AfriLearn 2024</p>
+        </div>
     </footer>
     
     <script src="Afri_Learn.js"></script>
