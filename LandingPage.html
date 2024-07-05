@@ -4,23 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AfriLearn</title>
-    <link rel="stylesheet" href="Afri_Learn.css">
+    <link rel="stylesheet" href="LandingPage.css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
 <body>
-    <header>
+    <header class="header">
         <div class="logo">
-            <img src="images/Logo.jpg" alt="AfriLearn Logo">
-            
+            <img src="/AfriLearn/images/AfrLogo.png" alt="Logo">
         </div>
-        <nav>
-            <ul id="nav-links">
-                <li><a href="#" class="nav-link">Home</a></li>
-                <li><a href="Programmes.html" class="nav-link">Programmes</a></li>
-                <li><a href="/AfriLearn/Tutors.html" class="nav-link">Tutors</a></li>
-                <li><a href="Login.html" class="nav-link">Log In</a></li>
-                <li>
-                    <a href="/AfriLearn/Student-Register.html" class="nav-link" id="register">Register with AfriLearn</a>
+        <nav class="nav-bar">
+            <ul>
+                <li class="nav-link"><a href="Afri_Learn.html">Home</a></li>
+                <li class="nav-link"><a href="Programmes.html">Programmes</a></li>
+                <li class="nav-link"><a href="Tutors.html">Tutors</a></li>
+                <li class="nav-link"><a href="Register.html">Log In</a></li>
+                <li class="signup">
+                    <a href="Login.html" style="color: aliceblue;">Sign Up</a>
                     <div class="dropdown">
                         <button class="dropbtn">
                         <i class="fa fa-caret-down"></i>
@@ -32,28 +32,55 @@
                     </div> 
                 </li>
             </ul>
-            <div class="menu-icon" id="menu-icon">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-
-            <div class="hero-content">
-                <h2>Empowering Africa through Technology and Education</h2>
-            </div>
-
-            <div class="search-bar">
-                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg>
-                <input type="text" placeholder="search for a program">
-            </div>
         </nav>
-        
     </header>
-
-
+    <section class="hero-container">
+        <div class="content-container">
+            <div class="text">
+                <span>#AfriTechRise</span> <br>
+                <h2>Flexible Solutions for <br>
+                    Your Tech Studies</h2>
+                <p>Are you eager to dive into cutting-edge technology? Join us to access premium e-learning materials in Cybersecurity, IoT, Graphics, Renewable Energy, and AI. As a new and innovative company, we empower you with the knowledge and skills to thrive. Sign up now and be part of a community shaping the future of technology!</p>
+                <div class="hero-btn">
+                    <div class="hero-btn1">
+                        <a href="">Start Today</a>
+                        </a>
+                        <div class="dropdown">
+                            <button class="dropbtn">
+                            <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                            <a href="Student-Register.html">Sign Up as Student</a>
+                            <a href="Tutor-Register.html">Sign Up as Tutor</a>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            <div class="side-img">
+                <img src="/AfriLearn/images/Landing_Page_pics-removebg.png" alt="">
+            </div>
+        </div>
+    </section>
+    
     <section class="about">
         <h2>Why You Should learn from Us</h2>
-        <p>We foster a supportive community where Africans can learn, connect, collaborate, and learn from each other. We are focused on bridging the technological gap in Africa. AfriLearn is for Africans by Africans.</p>
+        <p>
+        We foster a supportive community where Africans can learn, connect, collaborate, and learn from each other. We are focused on bridging the technological gap in Africa. AfriLearn is for Africans by Africans.
+        </p>
+        <!-- <div class="hero-btn1">
+            <a href="">Start Today</a>
+            </a>
+            <div class="dropdown">
+                <button class="dropbtn">
+                <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                <a href="Student-Register.html">Sign Up as Student</a>
+                <a href="Tutor-Register.html">Sign Up as Tutor</a>
+                </div>
+            </div> 
+        </div> -->
     </section>
 
     <section class="courses">
@@ -74,17 +101,17 @@
 
     <section class="tutor">
         <div class="tutor-content">
+            <div class="tutor-image">
+                <img src="images/Tutor img.jpg" alt="Tutor">
+            </div>
             <div class="tutor-text">
                 <h2>Join our vibrant community and be a part of something truly special in Africa!</h2>
                 <p>Connect with like-minded individuals, share your passions, teach your passions, and make lasting friendships with our students. Together, we can create a positive and supportive environment where everyone feels welcome and valued. Join us today and let’s make a difference together!</p>
                <br>
                 <div class="tutor-link">
-                    <a href="Register.html"><strong>Click to Register!!!</strong></a>
-
+                    <a href="Register.html"><strong>Click to Register!!!<strong></a>
+                    
                 </div>
-            </div>
-            <div class="tutor-image">
-                <img src="images/Tutor img.jpg" alt="Tutor">
             </div>
         </div>
     </section>
@@ -122,7 +149,5 @@
             <p>© AfriLearn 2024</p>
         </div>
     </footer>
-    
-    <script src="Afri_Learn.js"></script>
 </body>
 </html>
