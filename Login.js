@@ -1,20 +1,14 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const studentsButton = document.getElementById('studentsButton');
-    const tutorsButton = document.getElementById('tutorsButton');
-    const studentsForm = document.getElementById('studentsForm');
-    const tutorsForm = document.getElementById('tutorsForm');
+document.addEventListener('DOMContentLoaded', function() {
+    const studentBtn = document.getElementById('student-btn');
+    const tutorBtn = document.getElementById('tutor-btn');
 
-    studentsButton.addEventListener('click', () => {
-        studentsButton.classList.add('active');
-        tutorsButton.classList.remove('active');
-        studentsForm.classList.add('active');
-        tutorsForm.classList.remove('active');
+    studentBtn.addEventListener('click', function() {
+        studentBtn.classList.add('active');
+        tutorBtn.classList.remove('active');
     });
 
-    tutorsButton.addEventListener('click', () => {
-        tutorsButton.classList.add('active');
-        studentsButton.classList.remove('active');
-        tutorsForm.classList.add('active');
-        studentsForm.classList.remove('active');
+    tutorBtn.addEventListener('click', function() {
+        tutorBtn.classList.add('active');
+        studentBtn.classList.remove('active');
     });
 });
