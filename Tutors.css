@@ -1,0 +1,456 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+
+body{
+    /* background-image: url(/AfriLearn/images/programs\ bk\ img.png);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    font-family: 'Nunito', sans-serif;
+}
+
+.header{
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.logo img {
+    width: 324px; 
+    height: auto;  
+}
+
+.nav-bar ul{
+    display: flex;
+    gap: 50px;
+    margin: 20px 80px;
+}
+
+.nav-bar ul a{
+    text-decoration: none;
+    color: #000000;
+}
+
+/* .nav-bar ul a:hover{
+    background-color: #007bffa5;
+    padding: 5px 10px;
+    border-radius: 5px;
+} */
+
+.sub-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 40px;
+}
+
+.sub-nav1, .sub-nav2{
+    background-color: #1f51d17c;
+    padding: 7px 30px;
+    color: #D9D9D9;
+    border-radius: 25px;
+}
+
+.sub-nav2{
+    background-color: #1f51d1;
+    padding: 7px 45px;
+}
+
+
+
+.blog{
+    height: 120vh;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+.post{
+    background-color: #1F51D1;
+    color: aliceblue;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.blog-container{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    font-size: 30px;
+}
+
+.blog-item1 img, .blog-item2 img, .blog-item img{
+    width: 250px;
+    height: auto;
+}
+
+.blog-container figcaption{
+    color: #050404fc;
+    /* font-weight: bold; */
+    font-size: 20px;
+}
+
+.blog-container figcaption:hover{
+    color: #007bff;
+}
+
+
+/* last section */
+.last-section-container{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.show-more{
+    background-color: #7F98D6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 6px 13px;
+    font-size: large;
+    color: #D9D9D9;
+    font-weight: bold;
+}
+
+.show-more:hover{
+    background-color: #1F51D1;
+}
+
+.tutor-img img{
+    width: 35rem;
+    height: auto;
+}
+
+.last-section h2{
+    text-align: center;
+    font-size: 40px;
+    padding: 30px;
+    font-weight: bold;
+}
+
+.last-section{
+    height: 345px;
+    font-size: 32px;
+    background-color: #1F51D1;
+    color: aliceblue;
+    padding: 0 30px;
+    text-align: center;
+}
+
+.last-section button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Footer Section */
+
+footer {
+    background-color:#1f51d182 ;
+    margin-top: 30px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 150px;
+    font-size: 16px;
+}
+
+.footer-left ul {
+    line-height: 25px;
+    
+}
+
+.footer-content a {
+    color: black;
+}
+
+.footer-content a:hover{
+    color: #c0c4cf;
+}
+
+.footer-center{
+    text-align: center;
+}
+
+.footer-center ul{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+
+.footer-content input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.footer-content button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+}
+
+.copyright {
+    text-align: center;
+    color: #000000;
+    font-size: 18px;
+}
+
+/* Responsiveness */
+
+@media (max-width: 768px) {
+    .header{
+        /* width: 100vw; */
+        height: 18vh;
+        display: flex;
+        justify-content: space-between;
+        /* align-items: center; */
+        font-size: 10px;
+    }
+    
+    .logo img{
+        margin-top: 10px;
+        width: 50px;
+        height: auto;
+        margin-left: 1rem;
+    }
+    .nav-bar ul{
+        display: flex;
+        gap: 10px;
+        margin: 10px 5px 10px 30px;
+    }
+    
+    .nav-bar ul a{
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    /* .nav-bar ul a:hover{
+        background-color: #007bffa5;
+        padding: 5px 10px;
+        border-radius: 5px;
+    } */
+    
+    .sub-nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 5px;
+        margin-right: 200px;
+    }
+    
+    .sub-nav1, .sub-nav2{
+        background-color: #1f51d17c;
+        padding: 3px 10px;
+        color: #D9D9D9;
+        border-radius: 20px;
+    }
+    
+    .sub-nav2{
+        background-color: #1f51d1;
+        padding: 3px 25px;
+    }
+    
+    .search-bar{
+        background-color: #1f51d1;
+        width: 35%;
+        margin-top: 15px;
+        border-radius: 20px;
+        display: flex;
+        padding: 3px 7px;
+        margin-left: 50px;
+    }
+    
+    .search-bar input{
+        width: 350px;
+        border: none;
+        background-color: #1f51d1;
+        color: #D9D9D9;
+        padding: 5px;
+        border-radius: 20px;
+    }
+    
+    .search-bar input::placeholder{
+        color: #D9D9D9;
+        font-size: small;
+    }
+    
+    .popular-programs{
+        height: 450px;
+        background: #1f51d1ee;
+        border: yellow solid;
+    }
+    
+    .popular-programs-inner{
+        color: #D9D9D9;
+        display: block;
+        text-align: center;
+        /* padding: 20px 40px; */
+        /* gap: 40px; */
+        /* font-size: 20px; */
+        border: solid red;
+    }
+    
+    .popular-programs h2{
+        /* font-size: 32px; */
+        /* margin-bottom: 10px; */
+    }
+    
+    .popular-programs a{
+        color: #D9D9D9;
+        /* line-height: 30px; */
+    }
+    
+    .popular-programs a:hover{
+        color: gray;
+    }
+    
+    .show-more{
+        background-color: #7F98D6;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: fit-content;
+        margin: 20px auto;
+        padding: 6px 13px;
+        font-size: large;
+        color: #D9D9D9;
+        font-weight: bold;
+    }
+    
+    
+    
+    .blog{
+        height: 70vh;
+        text-align: center;
+        font-size: 40px;
+        margin-top: 40px;
+    }
+    
+    .post{
+        background-color: #1F51D1;
+        color: #D9D9D9;
+        font-size: 20px;
+        padding: 20px;
+    }
+    
+    .blog-container{
+        margin-top: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        font-size: 30px;
+    }
+    
+    .blog-item1 img, .blog-item2 img, .blog-item img{
+        width: 350px;
+        height: auto;
+    }
+    
+    .blog-container figcaption{
+        color: #050404fc;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    
+    .blog-container figcaption:hover{
+        color: #007bff;
+    }
+    
+    .last-section h2{
+        text-align: center;
+        font-size: 40px;
+        padding: 30px;
+        font-weight: bold;
+    }
+    
+    .last-section{
+        height: 330px;
+        font-size: 32px;
+        background-color: #1F51D1;
+        color: #D9D9D9;
+        padding: 0 30px;
+        text-align: center;
+    }
+    
+    /* Footer Section */
+    
+    footer {
+        background-color:#1f51d182 ;
+        margin-top: 30px;
+    }
+    
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 150px;
+        font-size: 16px;
+    }
+    
+    .footer-left ul {
+        line-height: 25px;
+        
+    }
+    
+    .footer-content a {
+        color: black;
+    }
+    
+    .footer-content a:hover{
+        color: #c0c4cf;
+    }
+    
+    .footer-center{
+        text-align: center;
+    }
+    
+    .footer-center ul{
+        display: flex;
+        gap: 20px;
+        padding: 10px;
+    }
+    
+    .footer-content input {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    
+    .footer-content button {
+        padding: 10px 20px;
+        border: none;
+        background-color: #007bff;
+        color: white;
+        border-radius: 5px;
+    }
+    
+    .copyright {
+        text-align: center;
+        color: #000000;
+        font-size: 18px;
+    }
+}
