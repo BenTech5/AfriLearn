@@ -24,9 +24,16 @@ body{
     font-size: 20px;
 }
 
-.logo img {
+/* .logo img {
     width: 324px; 
     height: auto;  
+} */
+
+.logo img {
+    width: 150px; 
+    height: auto; 
+    margin-left: 100px;
+    margin-top: 30px;
 }
 
 .nav-bar ul{
