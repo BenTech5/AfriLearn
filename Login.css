@@ -124,18 +124,24 @@ body{
     background-color: #0056b3;
 }
 
+input::placeholder{
+    color: #ffffff;
+    font-size: 20px;
+}
+
 form input {
     width: 50%;
     padding: 30px 60px;
     margin-bottom: 15px;
     margin-top: 45px;
+    font-size: larger;
     background-color: #4d7fff82;
     border: 1px solid #918e8e;
     border-radius: 32px;
 }
 
 form button {
-    width: 15%;
+    width: 11%;
     padding: 30px 50px;
     border: none;
     margin-top: 20px;
