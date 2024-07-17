@@ -93,6 +93,7 @@ body{
     background-color: white;
     /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
     text-align: center;
+    color: #0056b3;
 }
 
 .login-container h2 {
@@ -103,6 +104,7 @@ body{
 .in{
     font-size: 23px;
     margin-bottom: 30px;
+    color: #000;
 }
 
 .toggle-buttons {
