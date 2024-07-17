@@ -3,58 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Forgot Password - AfriLearn</title>
+    <title>AfriLearn - Forgot Password</title>
     <link rel="stylesheet" href="Forgot.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="logo"><img src="images/AfriLearn logo.jpeg" alt="AfriLearn">
-                <h1><strong>AfriLearn</strong></h1>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="Afri_Learn.html">Home</a></li>
-                    <li><a href="Programmes.html">Programmes</a></li>
-                    <li><a href="Tutorspage.html">Tutors</a></li>
-                    <li><a href="Register.html">Register with AfriLearn</a></li>
-                    <li><a href="Login.html">Log In</a></li>
-                </ul>
-            </nav>
+    <header class="header">
+        <div class="logo">
+            <img src="images/Logo.jpg" alt="Logo">
         </div>
+        <nav class="nav-bar">
+            <ul class="nav-links">
+                <li><a href="Afri_Learn.html">Home</a></li>
+                <li><a href="Programmes.html">Programmes</a></li>
+                <li><a href="Tutors.html">Tutors</a></li>
+                <li><a href="Register.html">Register with AfriLearn</a></li>
+                <li><a href="Login.html">Log In</a></li>
+            </ul>
+            <div class="sub-nav">
+                <ul>
+                    <li><a class="sub-nav1" href="Afri_Learn.html">Back to Home</a></li>
+                    <li><a class="sub-nav2" href="">Register</a></li>
+                </ul>
+            </div>
+        </nav>
     </header>
 
-    <main>
-        <div class="form-container">
-            <div class="button-group">
-                <button class="btn back-home">Home</button>
-                <button class="btn register">Register</button>
+    <div class="container">
+        <h1>Forgot Password?</h1>
+        <p>Don't worry about your account</p>
+        <form id="forgot-password-form">
+            <input type="email" id="email" placeholder="Enter your email" required><br>
+           <div class="toggle-buttons">
+            <button type="button" onclick="sendVerificationCode()"><strong>Send verification code</strong></button>
+            <button type="button" onclick="resendVerificationCode()"><strong>Resend code</strong></button>
+           </div>
+           <p style="font-weight: bolder; font-size: xx-large;">Enter verification code</p>
+            <div class="verification-code-inputs">
+                <input type="text" maxlength="1" required>
+                <input type="text" maxlength="1" required>
+                <input type="text" maxlength="1" required>
+                <input type="text" maxlength="1" required>
+                <input type="text" maxlength="1" required>
+                <input type="text" maxlength="1" required>
+            </div><br>
+            <p><i>Code expires in 10 minutes</i></p>
+            <input type="password" id="new-password" placeholder="Enter your new password" required>
+            <input type="password" id="confirm-password" placeholder="Confirm password" required><br>
+            <button type="submit"><strong>Login</strong></button>
+        </form>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-left">
+                <h3>AfriLearn</h3>
+                <ul>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">What we offer</a></li>
+                    <li><a href="#">Teach on AfriLearn</a></li>
+                    <li><a href="#">Help and Support</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
             </div>
-            <h1>Forgot password?</h1>
-            <p>Don't worry about your account</p>
-
-            <input type="email" placeholder="Enter your email" class="input-field">
-            <div class="button-group">
-                <button class="btn send-code">Send verification code</button>
-                <button class="btn resend-code">Resend code</button>
+            <div class="footer-center">
+                <h3>Connect with Us</h3>
+                <ul class="social-icons">
+                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fas fa-envelope"></i></a></li>
+                </ul>
             </div>
-
-            <p>Enter verification code</p>
-            <div class="verification-code">
-                <input type="text" maxlength="1">
-                <input type="text" maxlength="1">
-                <input type="text" maxlength="1">
-                <input type="text" maxlength="1">
-                <input type="text" maxlength="1">
-                <input type="text" maxlength="1">
+            <div class="footer-right">
+                <h3>Subscribe to get updates</h3>
+                <form action="">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
             </div>
-            <p class="code-expiry">code expires in 10 minutes</p>
-
-            <input type="password" placeholder="Enter your new password" class="input-field">
-            <input type="password" placeholder="Confirm password" class="input-field">
-            
-            <button class="btn login">Login</button>
         </div>
-    </main>
+        <div class="copyright">
+            <p>© AfriLearn 2024</p>
+        </div>
+    </footer>
+
+    <script src="Forgot.js"></script>
 </body>
 </html>
