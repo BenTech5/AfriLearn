@@ -10,9 +10,6 @@
 
 
 body{
-    background-image: url(/AfriLearn/images/programs\ bk\ img.png);
-    background-repeat: no-repeat;
-    background-size: cover;
     font-family: 'Nunito', sans-serif;
 }
 
@@ -23,11 +20,6 @@ body{
     justify-content: space-between;
     font-size: 20px;
 }
-
-/* .logo img {
-    width: 324px; 
-    height: auto;  
-} */
 
 .logo img {
     width: 150px; 
@@ -47,11 +39,10 @@ body{
     color: #000000;
 }
 
-/* .nav-bar ul a:hover{
-    background-color: #007bffa5;
-    padding: 5px 10px;
-    border-radius: 5px;
-} */
+.nav-bar ul a:hover{
+    color: #007bff;
+    font-weight: bold;
+}
 
 .sub-nav{
     display: flex;
@@ -62,15 +53,18 @@ body{
 }
 
 .sub-nav1, .sub-nav2{
-    background-color: #1f51d17c;
+    background-color: #000;
     padding: 7px 30px;
-    color: #D9D9D9;
     border-radius: 25px;
 }
 
 .sub-nav2{
     background-color: #1f51d1;
     padding: 7px 45px;
+}
+
+.sub-nav li a{
+    color: #ccc;
 }
 
 .search-bar{
@@ -100,7 +94,7 @@ body{
 
 .popular-programs{
     height: 462px;
-    background: #1f51d1ee;
+    background: #000;
 }
 
 .popular-programs-inner{
@@ -188,7 +182,7 @@ body{
 .last-section{
     height: 330px;
     font-size: 32px;
-    background-color: #1F51D1;
+    background-color: #000;
     color: #D9D9D9;
     padding: 0 30px;
     text-align: center;
@@ -314,18 +308,19 @@ footer {
         margin-top: 10px;
     }
     
-    .item1 div{
-        width: 140px;
-        padding: 10px;
-        border-radius: 100px;
-        background-color: #D9D9D9;
+    .search-bar input{
+        width: 350px;
+        border: none;
+        outline: none;
+        background-color: #1f51d1;
+        color: #D9D9D9;
+        padding: 5px;
+        border-radius: 20px;
     }
     
-    .item2 div{
-        width: 140px;
-        padding: 10px;
-        border-radius: 100px;
-        background-color: #D9D9D9;
+    .search-bar input::placeholder{
+        color: #D9D9D9;
+        font-size: small;
     }
     
     .item3 div{
@@ -358,18 +353,33 @@ footer {
     }
     
     .blog-container{
-        margin-top: 25px;
-        display: block;
+        margin-top: 70px;
+        margin-right: 100px;
+        display: flex;
         justify-content: center;
         align-items: center;
-        column-gap: 30px;
-        font-size: 20px;
+        gap: 40px;
+        font-size: 30px;
+        /* overflow: hidden; */
     }
     
-    .blog-item1 img, .blog-item2 img, .blog-item img{
-        width: 300px;
+    .blog-item1 iframe, .blog-item2 iframe, .blog-item iframe{
+        width: 150px;
         height: auto;
-        margin: 10px;
+    }
+
+    iframe{
+        width: 50px;
+    }
+    
+    .blog-container figcaption{
+        color: #050404fc;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    
+    .blog-container figcaption:hover{
+        color: #007bff;
     }
     
     .last-section h2{
@@ -379,10 +389,26 @@ footer {
     }
     
     .last-section{
-        height: 448px;
-        font-size: 40px;
-        background-color: #7087AA;
-        padding: 30px;
+        height: 330px;
+        font-size: 32px;
+        background-color: #1F51D1;
+        color: #D9D9D9;
+        padding: 0 30px;
+        text-align: center;
+    }
+    
+    /* Footer Section */
+    
+    footer {
+        background-color:#1f51d182 ;
+        /* margin-top: 30px; */
+    }
+    
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 150px;
+        font-size: 16px;
     }
     
 }

@@ -10,9 +10,6 @@
 
 
 body{
-    background-image: url(/AfriLearn/images/programs\ bk\ img.png);
-    background-repeat: no-repeat;
-    background-size: cover;
     font-family: 'Nunito', sans-serif;
 }
 
@@ -25,8 +22,9 @@ body{
 }
 
 .logo img {
-    width: 324px; 
-    height: auto;  
+    width: 150px; 
+    height: auto; 
+    margin-left: 100px; 
 }
 
 .nav-bar ul{
@@ -52,8 +50,8 @@ body{
     margin-top: 40px;
 }
 
-.sub-nav1{
-    background-color: #000000;
+.sub-nav1, .sub-nav2{
+    background-color: #000;
     padding: 7px 30px;
     color: #ffffff;
     border-radius: 25px;
@@ -64,6 +62,10 @@ body{
     padding: 7px 45px;
     color: white;
     border-radius: 25px;
+}
+
+.sub-nav li a{
+    color: white;
 }
 
 /* .search-bar{
@@ -92,33 +94,38 @@ body{
 
 .login-container {
     max-width: auto;
-    margin: 50px auto;
+    /* margin: 20px auto; */
     padding: 30px;
     background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
     text-align: center;
+    color: #0056b3;
 }
 
 .login-container h2 {
-    font-size: 50px;
+    font-size: 60px;
+    margin-bottom: 20px;
 }
+
 .in{
     font-size: 23px;
+    margin-bottom: 30px;
+    color: #000;
 }
+
 .toggle-buttons {
     display: flex;
     justify-content: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     margin-top: inherit;
 }
 
 .toggle-buttons button {
     padding: 30px 60px;
     border: none;
-    background-color: #000000;
+    background-color: #0056b3;
     color: white;
     cursor: pointer;
-    border-radius: 5px;
     font-size: 30px;
 }
 
@@ -127,40 +134,51 @@ body{
 } */
 
 .toggle-buttons button.active {
-    background-color: #0056b3;
+    background-color: #000;
 }
 
-input::placeholder{
+/* input::placeholder{
     color: #ffffff;
     font-size: 20px;
-}
+} */
 
-form input {
-    width: 50%;
-    padding: 30px 60px;
-    margin-bottom: 15px;
-    margin-top: 45px;
+/* form{
+    border: solid red;
+    text-align: center;
+    display: block;
+    align-items: center;
+    justify-content: center;
+} */
+
+.form input {
+    margin: 20px auto;
+    width: 30%;
+    padding: 20px 30px;
     font-size: larger;
     background-color: #4d7fff82;
     border: 1px solid #918e8e;
-    border-radius: 32px;
+    border-radius: 15px;
+    border-color: #007bff;
+    /* text-align: center; */
+    display: block;
+    outline: none;
 }
 
-form button {
-    width: 11%;
-    padding: 30px 50px;
+.form button {
+    width: 20%;
+    padding: 20px 50px;
     border: none;
-    margin-top: 20px;
+    margin-top: 10px;
     background-color: #0056b3;
-    font-size: 23px;
+    font-size: 20px;
     color: white;
-    border-radius: 32px;
+    border-radius: 15px;
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
-form button:hover {
-    background-color: #0056b3;
+.form button:hover {
+    background-color: #000;
 }
 
 .additional-links {
@@ -177,7 +195,7 @@ form button:hover {
 }
 
 .register-btn {
-    font-weight: bolder;
+    border: red solid;
     display: inline-block;
     margin-top: 20px;
     padding: 30px 50px;
@@ -186,7 +204,7 @@ form button:hover {
     font-size: 23px;
     text-decoration: none;
     border: none;
-    border-radius: 35px;
+    border-radius: 20px;
     transition: background-color 0.3s;
     cursor: pointer;
 }
@@ -195,7 +213,66 @@ form button:hover {
     background-color: #0056b3;
 }
 
+
 footer {
+    background-color:#1f51d182 ;
+    margin-top: 30px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 150px;
+    font-size: 16px;
+}
+
+.footer-left ul {
+    line-height: 25px;
+    
+}
+
+.footer-content a {
+    color: black;
+}
+
+.footer-content a:hover{
+    color: #c0c4cf;
+}
+
+.footer-center{
+    text-align: center;
+}
+
+.footer-center ul{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+
+.footer-content input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+    font: 10px;
+}
+
+.footer-content button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+}
+
+.copyright {
+    text-align: center;
+    color: #000000;
+    font-size: 18px;
+}
+
+
+/* footer {
     background-color:#1f51d182 ;
     margin-top: 30px;
 }
@@ -267,7 +344,7 @@ footer {
     text-align: center;
     color: #000000;
     font-size: 18px;
-}
+} */
 
 input{
     outline: none;
