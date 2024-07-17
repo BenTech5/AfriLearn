@@ -10,9 +10,6 @@
 
 
 body{
-    /* background-image: url(/AfriLearn/images/programs\ bk\ img.png);
-    background-repeat: no-repeat;
-    background-size: cover; */
     font-family: 'Nunito', sans-serif;
 }
 
@@ -23,11 +20,6 @@ body{
     justify-content: space-between;
     font-size: 20px;
 }
-
-/* .logo img {
-    width: 324px; 
-    height: auto;  
-} */
 
 .logo img {
     width: 150px; 
@@ -47,11 +39,9 @@ body{
     color: #000000;
 }
 
-/* .nav-bar ul a:hover{
-    background-color: #007bffa5;
-    padding: 5px 10px;
-    border-radius: 5px;
-} */
+.nav-bar ul a:hover{
+    text-decoration: underline #007bff 2px;
+}
 
 .sub-nav{
     display: flex;
@@ -62,15 +52,18 @@ body{
 }
 
 .sub-nav1, .sub-nav2{
-    background-color: #1f51d17c;
+    background-color: #000;
     padding: 7px 30px;
-    color: #D9D9D9;
     border-radius: 25px;
 }
 
 .sub-nav2{
     background-color: #1f51d1;
     padding: 7px 45px;
+}
+
+.sub-nav li a{
+    color: #ccc;
 }
 
 .search-bar{
@@ -100,7 +93,7 @@ body{
 
 .popular-programs{
     height: 462px;
-    background: #1f51d1ee;
+    background: #000;
 }
 
 .popular-programs-inner{
@@ -188,7 +181,7 @@ body{
 .last-section{
     height: 330px;
     font-size: 32px;
-    background-color: #1F51D1;
+    background-color: #000;
     color: #D9D9D9;
     padding: 0 30px;
     text-align: center;
@@ -321,6 +314,7 @@ footer {
     .search-bar input{
         width: 350px;
         border: none;
+        outline: none;
         background-color: #1f51d1;
         color: #D9D9D9;
         padding: 5px;
