@@ -36,8 +36,11 @@ body{
 }
 
 .nav-bar ul a{
-    text-decoration: none;
-    color: #000000;
+    text-decoration: none;;
+}
+
+.nav-links a{
+    color: #000000
 }
 
 .sub-nav{
@@ -45,19 +48,22 @@ body{
     align-items: center;
     justify-content: center;
     gap: 100px;
+    font-weight: bolder;
     margin-top: 40px;
 }
 
-.sub-nav1, .sub-nav2{
-    background-color: #1f51d17c;
+.sub-nav1{
+    background-color: #000000;
     padding: 7px 30px;
-    color: #D9D9D9;
+    color: #ffffff;
     border-radius: 25px;
 }
 
 .sub-nav2{
     background-color: #1f51d1;
     padding: 7px 45px;
+    color: white;
+    border-radius: 25px;
 }
 
 /* .search-bar{
@@ -109,7 +115,7 @@ body{
 .toggle-buttons button {
     padding: 30px 60px;
     border: none;
-    background-color: #1f51d182;
+    background-color: #000000;
     color: white;
     cursor: pointer;
     border-radius: 5px;
@@ -171,6 +177,7 @@ form button:hover {
 }
 
 .register-btn {
+    font-weight: bolder;
     display: inline-block;
     margin-top: 20px;
     padding: 30px 50px;
@@ -205,6 +212,7 @@ footer {
     list-style: none;
     
 }
+
 
 .footer-content a {
     color: black;
@@ -259,6 +267,10 @@ footer {
     text-align: center;
     color: #000000;
     font-size: 18px;
+}
+
+input{
+    outline: none;
 }
 
 @media (max-width: 768px) {

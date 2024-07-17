@@ -37,6 +37,9 @@ body{
 
 .nav-bar ul a{
     text-decoration: none;
+}
+
+.nav-links a{
     color: #000000;
 }
 
@@ -46,18 +49,21 @@ body{
     justify-content: center;
     gap: 100px;
     margin-top: 40px;
+    font-weight: bolder;
 }
 
-.sub-nav1, .sub-nav2{
-    background-color: #1f51d17c;
+.sub-nav1{
+    background-color: #000000;
     padding: 7px 30px;
-    color: #D9D9D9;
+    color: #ffffff;
     border-radius: 25px;
 }
 
 .sub-nav2{
     background-color: #1f51d1;
     padding: 7px 45px;
+    color: white;
+    border-radius: 25px;
 }
 
 body {
@@ -112,7 +118,7 @@ input[type="text"] {
     width: 28%;
     padding: 20px 60px;
     border: none;
-    background-color: #1f51d182;
+    background-color: #000000;
     color: white;
     cursor: pointer;
     border-radius: 100px;
@@ -131,11 +137,16 @@ input[type="text"] {
     width: 40px;
     padding: 10px;
     margin: 0 5px;
+    background-color: #A1A1A1;
     text-align: center;
     border: 1px solid #ccc;
     border-radius: 15px;
     font-size: 2em;
     margin-right: 40px;
+}
+
+.Ben{
+    color: #1F51D1;
 }
 
 button {
@@ -242,6 +253,10 @@ footer {
 }
 .subscribe-button:hover {
     background-color: #0056b3;
+}
+
+input{
+    outline: none;
 }
 
 @media (max-width: 768px) {
