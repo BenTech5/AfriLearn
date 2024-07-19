@@ -3,31 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AfriLearn - Empowering Africa through Technology and Education">
     <title>AfriLearn</title>
     <link rel="stylesheet" href="Afri_Learn.css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
-    <body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
     <header>
-        <div class="logo">
+        <!-- <div class="logo">
             <img src="images/Logo.jpg" alt="AfriLearn Logo">
-            
-        </div>
-        <nav>
+        </div> -->
+        <nav aria-label="Main navigation">
             <ul id="nav-links">
                 <li><a href="#" class="nav-link">Home</a></li>
                 <li><a href="Programmes.html" class="nav-link">Programmes</a></li>
                 <li><a href="Tutors.html" class="nav-link">Tutors</a></li>
                 <li><a href="Login.html" class="nav-link">Log In</a></li>
                 <li>
-                    <a href="/AfriLearn/Student-Register.html" class="nav-link" id="register">Register with AfriLearn</a>
+                    <a href="Student-Register.html" class="nav-link" id="register">Register with AfriLearn</a>
                     <div class="dropdown">
                         <button class="dropbtn">
-                        <i class="fa fa-caret-down"></i>
+                            <i class="fa fa-caret-down"></i>
                         </button>
                         <div class="dropdown-content">
-                        <a href="Student-Register.html">Sign Up as Student</a>
-                        <a href="Tutor-Register.html">Sign Up as Tutor</a>
+                            <a href="Student-Register.html">Sign Up as Student</a>
+                            <a href="Tutor-Register.html">Sign Up as Tutor</a>
                         </div>
                     </div> 
                 </li>
@@ -37,23 +38,27 @@
                 <span></span>
                 <span></span>
             </div>
-
-            <div class="hero-content">
-                <h2>Empowering Africa through Technology and Education</h2>
-            </div>
-
-            <div class="search-bar">
-                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg>
-                <input type="text" placeholder="search for a program">
-            </div>
         </nav>
-        
+        <!-- <div class="hero-content">
+            <h2>Empowering Africa through Technology and Education</h2>
+        </div> -->
+        <div class="header-content">
+            <div class="logo">
+                <img src="images/Logo.jpg" alt="AfriLearn Logo">
+            </div>
+            <div class="hero-content">
+                <h1>Empowering Africa through Technology and Education</h1>
+            </div>
+        </div>
+        <div class="search-bar">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg>
+            <input type="text" placeholder="search for a program">
+        </div>
     </header>
-
 
     <section class="about">
         <h2>Why You Should learn from Us</h2>
-        <p>We foster a supportive community where Africans can learn, connect, collaborate, and learn from each other. We are focused on bridging the technological gap in Africa. AfriLearn is for Africans by Africans.</p>
+        <p style="font-size: 25px;">We foster a supportive community where Africans can learn, connect, collaborate, and learn from each other. We are focused on bridging the technological gap in Africa. AfriLearn is for Africans by Africans.</p>
     </section>
 
     <section class="courses">
@@ -77,10 +82,9 @@
             <div class="tutor-text">
                 <h2>Join our vibrant community and be a part of something truly special in Africa!</h2>
                 <p>Connect with like-minded individuals, share your passions, teach your passions, and make lasting friendships with our students. Together, we can create a positive and supportive environment where everyone feels welcome and valued. Join us today and let’s make a difference together!</p>
-               <br>
+                <br>
                 <div class="tutor-link">
                     <a href="Register.html"><strong>Click to Register</strong></a>
-
                 </div>
             </div>
             <div class="tutor-image">
@@ -104,10 +108,10 @@
             <div class="footer-center">
                 <h3>Connect with Us</h3>
                 <ul>
-                    <a href="#" target="_blank"><i class="fa-brands fa-square-facebook"> </i></a>
-                    <a href="#" ><i class="fa-brands fa-x-twitter"> </i></a>
-                    <a href="#"><i class="fa-brands fa-square-instagram"> </i></a>
-                    <a href="#"><i class="fa-sharp fa-regular fa-envelope"> </i></a>
+                    <li><a href="#" target="_blank"><i class="fa-brands fa-square-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-square-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-sharp fa-regular fa-envelope"></i></a></li>
                 </ul>
             </div>
             <div class="footer-right">
