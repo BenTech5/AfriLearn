@@ -261,6 +261,10 @@ footer {
     flex-wrap: wrap;
 }
 
+/* .footer-left:hover {
+    color: #1F51D1;
+} */
+
 .footer-content div {
     flex: 1;
     margin: 10px;
