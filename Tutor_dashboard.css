@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+
+/* body{
+    background-image: url(/AfriLearn/images/programs\ bk\ img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Nunito', sans-serif;
+} */
+
+.header{
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.logo img {
+    width: 324px; 
+    height: auto;  
+}
+
+.nav-bar ul{
+    display: flex;
+    gap: 50px;
+    margin: 20px 80px;
+}
+
+.nav-bar ul a{
+    text-decoration: none;
+}
+
+.nav-links a{
+    color: #000000;
+}
+
+.sub-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 40px;
+    font-weight: bolder;
+}
+
+.sub-nav1{
+    background-color: #000000;
+    padding: 7px 30px;
+    color: #ffffff;
+    border-radius: 25px;
+}
+
+.sub-nav2{
+    background-color: #1f51d1;
+    padding: 7px 45px;
+    color: white;
+    border-radius: 25px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.logout{
+    display: flex;
+    margin-left: 100rem;
+    font-size: 20px;
+    gap: 5px;
+    font-weight: bold;
+}
+
+.logout a:hover{
+    color: red;
+}
+.dashboard {
+    text-align: center;
+    padding: 20px;
+}
+
+.dashboard-title{
+    margin-right: 80rem;
+    font-weight: 800;
+    font-size: 30px;
+    color: #1F51D1;
+}
+.welcome {
+    background-color: #1f51d182;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    gap: 200px;
+
+}
+
+.tutor-welcome{
+    align-items: center;
+    color: #ffffff;
+    max-width: 75%;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+.img {
+    padding: 0px;
+    width: 400px;
+    height: auto;
+}
+
+.overview {
+    margin: 20px 0;
+}
+
+.review{
+    text-align: center;
+    padding: 20px;
+    font-weight: 800;
+    font-size: 30px;
+    color: #1F51D1;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1f51d182;
+}
+
+.total-stats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.stat-item {
+    text-align: center;
+    background-color: #fff;
+    color: #1f51D1;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.stat-item img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.stat-item h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.stat-item p {
+    font-size: 14px;
+    color: #888;
+}
+
+.course-stats {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* .course-stats h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+} */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 20px;
+}
+
+th, td {
+    padding: 20px;
+    text-align: left;
+}
+
+td{
+    background-color: #1f51d182;
+    color: #ffffff;
+}
+
+th {
+    background-color: #ffffff;
+    color: #1F51D1;
+}
+
+td:last-child {
+    text-align: center;
+}
+
+
+/* Footer Section */
+
+footer {
+    background-color:#8FA8E8 ;
+    margin-top: 30px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 150px;
+    font-size: 16px;
+}
+
+.footer-left ul {
+    line-height: 25px;
+    list-style: none;
+    
+}
+
+.footer-content a {
+    color: black;
+}
+
+.footer-content a:hover{
+    background-color: #1f51d1;
+    color: white;
+}
+
+.footer-center{
+    text-align: center;
+}
+
+.footer-center ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+
+.fa-square-facebook{
+    font-size: 30px;
+    color: rgb(57, 57, 178);
+}
+.fa-x-twitter{
+    font-size: 30px;
+}
+.fa-square-instagram{
+    font-size: 30px;
+}
+.fa-envelope{
+    font-size: 30px;
+}
+
+.footer-content input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.footer-content button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+}
+
+.copyright {
+    text-align: center;
+    color: #000000;
+    font-size: 18px;
+}
+@media (max-width: 768px) {
+    .overview .stats {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .header{
+        width: 100vw;
+        height: 10vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 10px;
+    }
+    
+    .logo img{
+        width: 50px;
+        height: 10vh;
+        margin-left: 2rem;
+    }
+    .nav-bar ul{
+        display: flex;
+        gap: 10px;
+        margin-right: 10px;
+    }
+    
+    .nav-bar ul a{
+        text-decoration: none;
+        color: rgba(0, 0, 0, 1);
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
