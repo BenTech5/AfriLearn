@@ -282,9 +282,23 @@ footer {
     text-decoration: none;
 }
 
+.footer-left a:hover {
+    color: var(--secondary-color);
+    font-size: 16px;
+}
+
 .footer-center a {
     font-size: 24px;
     margin-right: 15px;
+}
+
+.footer-center a:hover {
+    /* border: 1px solid white; */
+    border-radius: 100%;
+    /* border-color: white; */
+    color: var(--secondary-color);
+    /* background-color: var(--text-color); */
+    transition: all 0.4s ease;
 }
 
 .footer-right form {
@@ -330,7 +344,7 @@ footer {
     }
 
     .logo img {
-        width: 200px;
+        width: 400px;
         margin-bottom: 20px;
     }
 
@@ -344,7 +358,7 @@ footer {
     }
 
     .nav-link {
-        margin-left: -30px;
+        margin-left: -50px;
     }
 
     .tutor-image img {
